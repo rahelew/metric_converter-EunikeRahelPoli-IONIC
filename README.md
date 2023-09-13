@@ -11,3 +11,4 @@ BERAT : Gram, Kilogram, Miligram, Ton, Pound, Ounce <br>
 5. User memasukan nilai pada kolom terakhir untuk menerima inputan yang akan diproses, selanjutnya klik enter<br>
 6. Hasil Konversi akan tertampil dilayar<br>
 
+![metric-converter](https://github.com/rahelew/metric_converter-EunikeRahelPoli-IONIC/assets/132439683/dc814286-1c9c-42f0-a3c1-e106577350ef)
