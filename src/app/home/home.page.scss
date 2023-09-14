@@ -1,27 +1,68 @@
-#container {
+/* Warna Dasar */
+ion-content {
+  --ion-background-color: #003B46;
+}
+
+ion-toolbar {
+  padding: 1%;
+  margin: auto;
+}
+
+ion-title {
+  margin-top: 2%;
   text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  font-size: xx-large;
+  font-family: 'Montserrat';
+  font-weight: bold;
+  color: #bddee2; /* Warna biru sejuk */
 }
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
+.author {
+  font-size: large;
+  font-family: monospace;
+  text-align: center;
+  display: block;
+  margin-top: auto;
+  margin-bottom: 2%;
+  color: #bddee2; /* Warna biru sejuk */
 }
 
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
+ion-label {
+  font-size: medium;
+  font-weight: bold;
+  color: #80b4bb; /* Warna biru sejuk */
 }
 
-#container a {
-  text-decoration: none;
+ion-select {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+ion-select::part(placeholder) {
+  color: #888;
+}
+
+ion-select-option {
+  color: #333; /* Warna teks opsi dropdown */
+}
+
+ion-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 24px;
+  color: #66A5AD; /* Warna biru sejuk */
+}
+
+/* Warna Toolbar */
+ion-toolbar {
+  --background: #07575B; /* Warna biru sejuk untuk latar belakang toolbar */
+  --ion-color-base: #C4DFE6; /* Warna teks di toolbar */
+  --ion-color-contrast: #07575B; /* Warna kontras teks di toolbar */  padding: auto;
 }
